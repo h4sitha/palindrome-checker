@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, p {
+    margin: 0;
+}
+
+main {
+    border: 1px solid black;
+    width: clamp(18.75rem, 95%, 37.5rem);
+    padding: 0.75rem 1rem;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+
+#input-div {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
