@@ -12,8 +12,8 @@ button.addEventListener('click', () => {
     let newString = string.toLowerCase().replace(/[^a-z0-9]/g, "");
     let reversed = newString.split("").reverse().join("");
     if (reversed === newString) {
-        resultDiv.textContent = `${string} is a palindrome.`;
+        resultDiv.textContent = `'${string}' is a palindrome.`;
     } else {
-        resultDiv.textContent = `${string} is not a palindrome.`
+        resultDiv.textContent = `'${string}' is not a palindrome.`
     }
 })
