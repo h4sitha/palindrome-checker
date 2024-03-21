@@ -9,4 +9,9 @@ button.addEventListener('click', () => {
     console.log(string);
     console.log(newString);
     console.log(reversed);
+    if (reversed === newString) {
+        console.log("Palindrome");
+    } else {
+        console.log("Not");
+    }
 })
