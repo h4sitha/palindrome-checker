@@ -7,10 +7,12 @@ h1, p {
 }
 
 main {
-    border: 1px solid black;
+    border: 1px solid #a3a2a2;
     width: clamp(18.75rem, 95%, 37.5rem);
-    padding: 0.75rem 1rem;
+    padding: 2rem 2rem;
     margin: 25vh auto;
+    font-family: sans-serif;
+    border-radius: 10px;
 }
 
 p {
@@ -20,9 +22,24 @@ p {
 h1 {
     margin-bottom: 2rem;
     margin-top: 0.5rem;
+    text-align: center;
 }
 
 #input-div {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 5px 10px;
+    /* border-radius: 2px; */
+    /* border-color: #ccc; */
+}
+
+button {
+    padding: 5px 20px;
+    /* border-radius: 10px; */
 }
