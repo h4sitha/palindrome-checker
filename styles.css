@@ -48,3 +48,11 @@ button {
     border: 1px solid hsl(0, 0%, 50%);
     border-radius: 6px;
 }
+
+button:hover {
+    background-color: hsla(0, 0%, 95%, 0.5);
+}
+
+button:active {
+    background-color: rgba(255, 255, 255, 0);
+}
