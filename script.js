@@ -4,5 +4,7 @@ const resultDiv = document.querySelector('#result');
 
 button.addEventListener('click', () => {
     let string = input.value;
+    let newString = string.toLowerCase().replace(/[^a-z0-9]/g, "");
     console.log(string);
+    console.log(newString);
 })
